@@ -7,6 +7,7 @@ import swup from "@swup/astro";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import { defineConfig } from "astro/config";
+import path from "path";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
 import rehypeKatex from "rehype-katex";
@@ -26,7 +27,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://k3vinq.github.io",
+	site: "https://TZkYkunaga.github.io",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
@@ -154,6 +155,17 @@ export default defineConfig({
 		],
 	},
 	vite: {
+		resolve: {
+			alias: {
+				"@components": path.resolve("./src/components"),
+				"@assets": path.resolve("./src/assets"),
+				"@constants": path.resolve("./src/constants"),
+				"@utils": path.resolve("./src/utils"),
+				"@i18n": path.resolve("./src/i18n"),
+				"@layouts": path.resolve("./src/layouts"),
+				"@": path.resolve("./src"),
+			},
+		},
 		build: {
 			rollupOptions: {
 				onwarn(warning, warn) {
