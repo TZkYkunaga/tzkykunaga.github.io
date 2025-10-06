@@ -3,8 +3,8 @@
  */
 import { definePlugin } from "@expressive-code/core";
 
-export function pluginLanguageBadge() {
-	return definePlugin({
+export function pluginLanguageBadge(): ReturnType<typeof definePlugin> {
+  return definePlugin({
 		name: "Language Badge",
 		// @ts-ignore
 		baseStyles: ({ _cssVar }) => `
