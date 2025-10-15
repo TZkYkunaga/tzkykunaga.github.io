@@ -5,7 +5,7 @@ description: 'I got nothing to say but it is cool for sure'
 image: 'guide/animegirl.png'
 tags: []
 category: ''
-draft: false 
+draft: true 
 lang: ''
 ---
 
