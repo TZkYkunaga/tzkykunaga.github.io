@@ -3,7 +3,7 @@ title: API fundamental
 published: 2025-10-15
 description: 'Đây là một số kiến thức cơ bản trong API security'
 image: 'guide/API_funda.jpg'
-tags: [API]
+tags: [api]
 category: 'Learning'
 draft: false 
 lang: 'VietNam'
