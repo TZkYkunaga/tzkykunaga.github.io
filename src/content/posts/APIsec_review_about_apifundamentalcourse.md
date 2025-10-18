@@ -4,7 +4,7 @@ published: 2025-10-15
 description: 'This blog is about review the API fundamental course from APISEC '
 image: 'guide/alimegirl1.jpg'
 tags: [api]
-category: 'Learning'
+category: 'learning'
 draft: false 
 lang: 'en'
 ---

@@ -4,9 +4,9 @@ published: 2025-10-15
 description: 'Đây là một số kiến thức cơ bản trong API security'
 image: 'guide/API_funda.jpg'
 tags: [api]
-category: 'Learning'
+category: 'learning'
 draft: false 
-lang: 'VietNam'
+lang: 'vi'
 ---
 # Api ảnh hưởng như thế nào ?
 
