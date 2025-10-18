@@ -2,7 +2,7 @@
 title: HTTP response
 published: 2025-10-18
 description: ''
-image: 'guide/crapi.jpg'
+image: 'guide/crapiiiiiiiiiii.jpg'
 tags: [HTTPresponse]
 category: 'learning'
 draft: false 

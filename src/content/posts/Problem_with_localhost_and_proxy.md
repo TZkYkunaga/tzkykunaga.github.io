@@ -1,5 +1,5 @@
 ---
-title: Problem with localhost_and proxy
+title: Problem with localhost and proxy
 published: 2025-10-19
 description: ''
 image: 'guide/crapiiii.jpg'
