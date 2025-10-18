@@ -65,9 +65,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://hackerone.com/ykuntzk?type=user",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "Facebook",
+			icon: "ic:baseline-facebook",
+			url: "https://www.facebook.com/Meaidocon/",
 		},
 		{
 			name: "GitHub",
