@@ -12,7 +12,7 @@ lang: 'en'
 
 # Got problem with proxy when connecting to [localhost](http://localhost) ip or 127.0.0.1.
 
-Recently im using proxy tool like postman, mitmproxy and burpsuite with foxyproxy. But the problem is those can not capture any packets from my local application 
+Recently i have been using proxy tool like postman, mitmproxy and burpsuite with foxyproxy. But the problem is those can not capture any packets from my local application 
 
 ![mitmweb proxy on port 8080](guide/crapi1.png)
 
